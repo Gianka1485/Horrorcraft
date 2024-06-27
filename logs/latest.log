@@ -1,0 +1,576 @@
+[27jun2024 17:31:37.070] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
+[27jun2024 17:31:37.077] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.10 by Microsoft; OS Windows 10 arch amd64 version 10.0
+[27jun2024 17:31:37.479] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Gianka/Desktop/server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[27jun2024 17:31:38.014] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Gianka\Desktop\server\libraries\net\minecraftforge\fmlcore\1.19.2-43.4.0\fmlcore-1.19.2-43.4.0.jar is missing mods.toml file
+[27jun2024 17:31:38.022] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Gianka\Desktop\server\libraries\net\minecraftforge\javafmllanguage\1.19.2-43.4.0\javafmllanguage-1.19.2-43.4.0.jar is missing mods.toml file
+[27jun2024 17:31:38.029] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Gianka\Desktop\server\libraries\net\minecraftforge\lowcodelanguage\1.19.2-43.4.0\lowcodelanguage-1.19.2-43.4.0.jar is missing mods.toml file
+[27jun2024 17:31:38.036] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Gianka\Desktop\server\libraries\net\minecraftforge\mclanguage\1.19.2-43.4.0\mclanguage-1.19.2-43.4.0.jar is missing mods.toml file
+[27jun2024 17:31:38.177] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[27jun2024 17:31:39.752] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[27jun2024 17:31:39.770] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[27jun2024 17:31:42.493] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on sanitydim.mixins.json:MixinEntity::handler$zzn000$move exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[27jun2024 17:31:46.082] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[27jun2024 17:31:48.197] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Welcome! C:\Users\Gianka\Desktop\server\config/libraryferret_1.properties created and initialized with default value
+[27jun2024 17:31:48.199] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[27jun2024 17:31:48.200] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Welcome! C:\Users\Gianka\Desktop\server\config/bettervillage_1.properties created and initialized with default value
+[27jun2024 17:31:48.248] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[27jun2024 17:31:48.253] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Gianka\Desktop\server\config\appleskin-client.toml is not correct. Correcting
+[27jun2024 17:31:48.257] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.258] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodValuesInTooltip was corrected from null to its default, true. 
+[27jun2024 17:31:48.259] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodValuesInTooltipAlways was corrected from null to its default, true. 
+[27jun2024 17:31:48.260] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showSaturationHudOverlay was corrected from null to its default, true. 
+[27jun2024 17:31:48.261] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodValuesHudOverlay was corrected from null to its default, true. 
+[27jun2024 17:31:48.262] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodValuesHudOverlayWhenOffhand was corrected from null to its default, true. 
+[27jun2024 17:31:48.263] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodExhaustionHudUnderlay was corrected from null to its default, true. 
+[27jun2024 17:31:48.264] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodStatsInDebugOverlay was corrected from null to its default, true. 
+[27jun2024 17:31:48.264] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodHealthHudOverlay was corrected from null to its default, true. 
+[27jun2024 17:31:48.266] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showVanillaAnimationsOverlay was corrected from null to its default, true. 
+[27jun2024 17:31:48.266] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.maxHudOverlayFlashAlpha was corrected from null to its default, 0.65. 
+[27jun2024 17:31:48.280] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.0, for MC 1.19.2 with MCP 20220805.130853
+[27jun2024 17:31:48.289] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.0 Initialized
+[27jun2024 17:31:48.516] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Gianka\Desktop\server\config\graveyard-1.19.x-common.toml is not correct. Correcting
+[27jun2024 17:31:48.517] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.519] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.hauntedHouse was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.520] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.hauntedHouse.generate was corrected from null to its default, true. 
+[27jun2024 17:31:48.521] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.largeGraveyard was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.521] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.largeGraveyard.generate was corrected from null to its default, true. 
+[27jun2024 17:31:48.522] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.mediumGraveyard was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.523] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.mediumGraveyard.generate was corrected from null to its default, true. 
+[27jun2024 17:31:48.524] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.memorialTree was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.525] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.memorialTree.generate was corrected from null to its default, true. 
+[27jun2024 17:31:48.525] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.mushroomGrave was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.526] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.mushroomGrave.generate was corrected from null to its default, true. 
+[27jun2024 17:31:48.526] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.smallDesertGrave was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.527] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.smallDesertGrave.generate was corrected from null to its default, true. 
+[27jun2024 17:31:48.528] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.smallDesertGraveyard was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.528] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.smallDesertGraveyard.generate was corrected from null to its default, true. 
+[27jun2024 17:31:48.529] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.smallGrave was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.530] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.smallGrave.generate was corrected from null to its default, true. 
+[27jun2024 17:31:48.531] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.smallSavannaGrave was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.531] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.smallSavannaGrave.generate was corrected from null to its default, true. 
+[27jun2024 17:31:48.532] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.smallGraveyard was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.532] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.smallGraveyard.generate was corrected from null to its default, true. 
+[27jun2024 17:31:48.533] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.smallMountainGraveyard was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.533] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.smallMountainGraveyard.generate was corrected from null to its default, true. 
+[27jun2024 17:31:48.534] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.crypt was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.535] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.crypt.generate was corrected from null to its default, true. 
+[27jun2024 17:31:48.536] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.altar was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.536] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.altar.generate was corrected from null to its default, true. 
+[27jun2024 17:31:48.537] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.giantMushroom was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.538] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.giantMushroom.generate was corrected from null to its default, true. 
+[27jun2024 17:31:48.539] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.lichPrison was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.540] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.lichPrison.generate was corrected from null to its default, true. 
+[27jun2024 17:31:48.541] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.ruins was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.551] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.ruins.generate was corrected from null to its default, true. 
+[27jun2024 17:31:48.552] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.deadTree was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.552] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Structures Config.deadTree.generate was corrected from null to its default, true. 
+[27jun2024 17:31:48.558] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.559] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.ghoul was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.560] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.ghoul.enabled was corrected from null to its default, true. 
+[27jun2024 17:31:48.561] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.ghoul.weight was corrected from null to its default, 25. 
+[27jun2024 17:31:48.562] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.ghoul.minGroupSizeGhoul was corrected from null to its default, 2. 
+[27jun2024 17:31:48.563] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.ghoul.maxGroupSizeGhoul was corrected from null to its default, 5. 
+[27jun2024 17:31:48.564] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.ghoul.canBurnInSunlight was corrected from null to its default, true. 
+[27jun2024 17:31:48.564] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.ghoul.canBeWithered was corrected from null to its default, true. 
+[27jun2024 17:31:48.565] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.revenant was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.565] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.revenant.enabled was corrected from null to its default, true. 
+[27jun2024 17:31:48.566] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.revenant.weight was corrected from null to its default, 25. 
+[27jun2024 17:31:48.568] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.revenant.minGroupSizeRevenant was corrected from null to its default, 5. 
+[27jun2024 17:31:48.569] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.revenant.maxGroupSizeRevenant was corrected from null to its default, 8. 
+[27jun2024 17:31:48.570] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.revenant.canBurnInSunlight was corrected from null to its default, true. 
+[27jun2024 17:31:48.570] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.revenant.canBeWithered was corrected from null to its default, true. 
+[27jun2024 17:31:48.571] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.reaper was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.573] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.reaper.enabled was corrected from null to its default, true. 
+[27jun2024 17:31:48.578] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.reaper.weight was corrected from null to its default, 10. 
+[27jun2024 17:31:48.578] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.reaper.minGroupSizeReaper was corrected from null to its default, 2. 
+[27jun2024 17:31:48.579] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.reaper.maxGroupSizeGhoul was corrected from null to its default, 3. 
+[27jun2024 17:31:48.580] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.reaper.canBurnInSunlight was corrected from null to its default, true. 
+[27jun2024 17:31:48.581] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.reaper.canBeWithered was corrected from null to its default, true. 
+[27jun2024 17:31:48.582] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.nightmare was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.582] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.nightmare.enabled was corrected from null to its default, true. 
+[27jun2024 17:31:48.583] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.nightmare.weight was corrected from null to its default, 10. 
+[27jun2024 17:31:48.585] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.nightmare.minGroupSizeNightmare was corrected from null to its default, 1. 
+[27jun2024 17:31:48.586] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.nightmare.maxGroupSizeNightmare was corrected from null to its default, 1. 
+[27jun2024 17:31:48.587] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.nightmare.canBurnInSunlight was corrected from null to its default, false. 
+[27jun2024 17:31:48.591] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.nightmare.canBeWithered was corrected from null to its default, false. 
+[27jun2024 17:31:48.591] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.skeleton_creeper was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.592] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.skeleton_creeper.enabled was corrected from null to its default, true. 
+[27jun2024 17:31:48.592] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.skeleton_creeper.weight was corrected from null to its default, 25. 
+[27jun2024 17:31:48.594] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.skeleton_creeper.minGroupSizeSkeletonCreeper was corrected from null to its default, 1. 
+[27jun2024 17:31:48.594] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.skeleton_creeper.maxGroupSizeSkeletonCreeper was corrected from null to its default, 4. 
+[27jun2024 17:31:48.595] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.skeleton_creeper.canBurnInSunlight was corrected from null to its default, true. 
+[27jun2024 17:31:48.595] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.skeleton_creeper.canBeWithered was corrected from null to its default, true. 
+[27jun2024 17:31:48.596] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.acolyte was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.597] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.acolyte.enabled was corrected from null to its default, false. 
+[27jun2024 17:31:48.597] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.acolyte.canBurnInSunlight was corrected from null to its default, false. 
+[27jun2024 17:31:48.598] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.acolyte.canBeWithered was corrected from null to its default, true. 
+[27jun2024 17:31:48.618] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.wraith was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.620] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.wraith.enabled was corrected from null to its default, false. 
+[27jun2024 17:31:48.622] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.wraith.canBurnInSunlight was corrected from null to its default, true. 
+[27jun2024 17:31:48.623] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.wraith.canBeWithered was corrected from null to its default, false. 
+[27jun2024 17:31:48.624] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.corruptedPillager was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.633] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.corruptedPillager.enabled was corrected from null to its default, false. 
+[27jun2024 17:31:48.634] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.corruptedPillager.canBurnInSunlight was corrected from null to its default, true. 
+[27jun2024 17:31:48.635] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.corruptedPillager.canBeWithered was corrected from null to its default, true. 
+[27jun2024 17:31:48.639] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.corruptedVindicator was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.640] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.corruptedVindicator.enabled was corrected from null to its default, false. 
+[27jun2024 17:31:48.646] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.corruptedVindicator.canBurnInSunlight was corrected from null to its default, true. 
+[27jun2024 17:31:48.646] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Mob Spawning Config.corruptedVindicator.canBeWithered was corrected from null to its default, true. 
+[27jun2024 17:31:48.677] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.680] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.693] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.healthInCastingPhase was corrected from null to its default, 400.0. 
+[27jun2024 17:31:48.699] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.healthInHuntingPhase was corrected from null to its default, 200.0. 
+[27jun2024 17:31:48.708] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.damageCastingPhase was corrected from null to its default, 30.0. 
+[27jun2024 17:31:48.754] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.damageHuntingPhaseAddition was corrected from null to its default, 40.0. 
+[27jun2024 17:31:48.764] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.armor was corrected from null to its default, 18.0. 
+[27jun2024 17:31:48.768] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.armorToughness was corrected from null to its default, 14.0. 
+[27jun2024 17:31:48.776] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.speedInHuntPhase was corrected from null to its default, 0.15. 
+[27jun2024 17:31:48.778] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.durationHuntingPhase was corrected from null to its default, 800. 
+[27jun2024 17:31:48.795] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.durationFallingCorpseSpell was corrected from null to its default, 400. 
+[27jun2024 17:31:48.806] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.durationHealingSpell was corrected from null to its default, 700. 
+[27jun2024 17:31:48.811] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.durationLevitationSpell was corrected from null to its default, 150. 
+[27jun2024 17:31:48.824] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.maxAmountSkullsInShootSkullSpell was corrected from null to its default, 5. 
+[27jun2024 17:31:48.827] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.maxSummonedMobs was corrected from null to its default, 30. 
+[27jun2024 17:31:48.828] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.maxGroupSizeSummonedMobs was corrected from null to its default, 5. 
+[27jun2024 17:31:48.829] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.ghoulSpawnTimerInFight was corrected from null to its default, 6000. 
+[27jun2024 17:31:48.830] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.isBloodCollectableEntity was corrected from null to its default, [entity.minecraft.villager]. 
+[27jun2024 17:31:48.832] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.isBossSummonableItem was corrected from null to its default, [item.minecraft.debug_stick]. 
+[27jun2024 17:31:48.834] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.summoningNeedsStaffFragments was corrected from null to its default, true. 
+[27jun2024 17:31:48.835] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.isMultiphaseFight was corrected from null to its default, true. 
+[27jun2024 17:31:48.836] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.isInvulnerableDuringSpells was corrected from null to its default, true. 
+[27jun2024 17:31:48.838] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.cooldownCorpseSpell was corrected from null to its default, 400. 
+[27jun2024 17:31:48.841] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.cooldownTeleportPlayerAndHeal was corrected from null to its default, 600. 
+[27jun2024 17:31:48.845] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.cooldownLevitationSpell was corrected from null to its default, 400. 
+[27jun2024 17:31:48.845] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Corrupted Champion Config.corruptedChampion.playerTeleportYOffset was corrected from null to its default, -15. 
+[27jun2024 17:31:48.851] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Horde Config was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.854] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Horde Config.horde was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.857] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Horde Config.horde.generate was corrected from null to its default, true. 
+[27jun2024 17:31:48.860] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Horde Config.horde.mobSpawnAttempts was corrected from null to its default, 40. 
+[27jun2024 17:31:48.861] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Horde Config.horde.ticksUntilSpawnHorde was corrected from null to its default, 24000. 
+[27jun2024 17:31:48.862] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Horde Config.horde.additionalRandomizedTicks was corrected from null to its default, 1200. 
+[27jun2024 17:31:48.866] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Particle Config was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.866] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Particle Config.particle was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.867] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Particle Config.particle.generate was corrected from null to its default, true. 
+[27jun2024 17:31:48.869] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Particle Config.particle.frequency was corrected from null to its default, 50. 
+[27jun2024 17:31:48.875] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Additional Config was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.876] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Additional Config.urn was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.877] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Additional Config.urn.urnHasDoubleInventory was corrected from null to its default, true. 
+[27jun2024 17:31:48.877] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Additional Config.bossMusic was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.879] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Additional Config.bossMusic.enableBossMusic was corrected from null to its default, true. 
+[27jun2024 17:31:48.881] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Additional Config.spawner was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:48.882] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key The Graveyard - Additional Config.spawner.disableWitherSkeletonSpawner was corrected from null to its default, false. 
+[27jun2024 17:31:49.784] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Gianka\Desktop\server\config\sophisticatedcore-common.toml is not correct. Correcting
+[27jun2024 17:31:49.785] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:49.786] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.enabledItems was corrected from null to its default, []. 
+[27jun2024 17:31:49.791] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Gianka\Desktop\server\config\sophisticatedbackpacks-common.toml is not correct. Correcting
+[27jun2024 17:31:49.793] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:49.793] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.chestLootEnabled was corrected from null to its default, true. 
+[27jun2024 17:31:49.802] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Gianka\Desktop\server\config\sanitydim\default.toml is not correct. Correcting
+[27jun2024 17:31:49.803] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:49.803] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.positive_multiplier was corrected from null to its default, 1.0. 
+[27jun2024 17:31:49.804] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.negative_multiplier was corrected from null to its default, 1.0. 
+[27jun2024 17:31:49.805] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.passive was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:49.805] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.passive.passive was corrected from null to its default, 0.0. 
+[27jun2024 17:31:49.806] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.passive.raining was corrected from null to its default, -0.2. 
+[27jun2024 17:31:49.806] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.passive.hunger_threshold was corrected from null to its default, 8. 
+[27jun2024 17:31:49.807] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.passive.hungry was corrected from null to its default, -0.2. 
+[27jun2024 17:31:49.809] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.passive.ender_man_anger was corrected from null to its default, -5.0. 
+[27jun2024 17:31:49.811] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.passive.pet was corrected from null to its default, 0.15. 
+[27jun2024 17:31:49.812] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.passive.monster was corrected from null to its default, -0.1. 
+[27jun2024 17:31:49.813] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.passive.darkness was corrected from null to its default, -0.15. 
+[27jun2024 17:31:49.813] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.passive.darkness_threshold was corrected from null to its default, 4. 
+[27jun2024 17:31:49.814] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.passive.lightness was corrected from null to its default, 0.0. 
+[27jun2024 17:31:49.815] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.passive.lightness_threshold was corrected from null to its default, 4. 
+[27jun2024 17:31:49.815] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.passive.block_stuck was corrected from null to its default, -0.09. 
+[27jun2024 17:31:49.816] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.passive.dirt_path was corrected from null to its default, 0.09. 
+[27jun2024 17:31:49.816] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.passive.jukebox_pleasant was corrected from null to its default, 0.08. 
+[27jun2024 17:31:49.817] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.passive.jukebox_unsettling was corrected from null to its default, -0.11. 
+[27jun2024 17:31:49.818] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.passive.blocks was corrected from null to its default, [minecraft:campfire[lit=true];0.1;4;false]. 
+[27jun2024 17:31:49.818] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.active was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:49.819] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.active.sleeping was corrected from null to its default, 50.0. 
+[27jun2024 17:31:49.820] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.active.sleeping_cd was corrected from null to its default, 1200.0. 
+[27jun2024 17:31:49.820] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.active.hurt_ratio was corrected from null to its default, -1.0. 
+[27jun2024 17:31:49.821] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.active.baby_chicken_spawn was corrected from null to its default, 5.0. 
+[27jun2024 17:31:49.821] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.active.baby_chicken_spawn_cd was corrected from null to its default, 300.0. 
+[27jun2024 17:31:49.822] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.active.advancement was corrected from null to its default, 20.0. 
+[27jun2024 17:31:49.822] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.active.animal_breeding was corrected from null to its default, 9.0. 
+[27jun2024 17:31:49.823] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.active.animal_breeding_cd was corrected from null to its default, 600.0. 
+[27jun2024 17:31:49.824] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.active.animal_hurt_ratio was corrected from null to its default, -0.5. 
+[27jun2024 17:31:49.827] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.active.pet_death was corrected from null to its default, -60.0. 
+[27jun2024 17:31:49.828] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.active.villager_trade was corrected from null to its default, 20.0. 
+[27jun2024 17:31:49.828] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.active.villager_trade_cd was corrected from null to its default, 600.0. 
+[27jun2024 17:31:49.829] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.active.shearing was corrected from null to its default, 5.0. 
+[27jun2024 17:31:49.830] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.active.shearing_cd was corrected from null to its default, 300.0. 
+[27jun2024 17:31:49.830] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.active.eating was corrected from null to its default, 0.8. 
+[27jun2024 17:31:49.831] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.active.eating_cd was corrected from null to its default, 300.0. 
+[27jun2024 17:31:49.831] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.active.fishing was corrected from null to its default, 1.3. 
+[27jun2024 17:31:49.832] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.active.fishing_cd was corrected from null to its default, 0.0. 
+[27jun2024 17:31:49.832] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.active.farmland_trample was corrected from null to its default, -2.0. 
+[27jun2024 17:31:49.833] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.active.potting_flower was corrected from null to its default, 4.0. 
+[27jun2024 17:31:49.833] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.active.potting_flower_cd was corrected from null to its default, 300.0. 
+[27jun2024 17:31:49.833] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.active.changed_dimension was corrected from null to its default, -10.0. 
+[27jun2024 17:31:49.834] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.active.struck_by_lightning was corrected from null to its default, -30.0. 
+[27jun2024 17:31:49.835] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.active.items was corrected from null to its default, [minecraft:pufferfish;-5;0, minecraft:poisonous_potato;-5;0, minecraft:spider_eye;-5;0, minecraft:rotten_flesh;-5;0, minecraft:chorus_fruit;-3;0, minecraft:ender_pearl;-1;0, minecraft:honey_bottle;6;1, minecraft:golden_carrot;7;1, minecraft:golden_apple;8;1, minecraft:enchanted_golden_apple;13;1]. 
+[27jun2024 17:31:49.835] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.active.item_categories was corrected from null to its default, [0;0, 1;800.0]. 
+[27jun2024 17:31:49.836] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.active.broken_blocks was corrected from null to its default, [minecraft:infested_stone;-8;0;false;false, minecraft:infested_cobblestone;-8;0;false;false, minecraft:infested_stone_bricks;-8;0;false;false, minecraft:infested_cracked_stone_bricks;-8;0;false;false, minecraft:infested_mossy_stone_bricks;-8;0;false;false, minecraft:infested_chiseled_stone_bricks;-8;0;false;false, minecraft:infested_deepslate;-8;0;false;false]. 
+[27jun2024 17:31:49.837] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.active.broken_block_categories was corrected from null to its default, [0;0]. 
+[27jun2024 17:31:49.837] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.multiplayer was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:49.838] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.multiplayer.sane_player_company was corrected from null to its default, 0.05. 
+[27jun2024 17:31:49.838] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.multiplayer.insane_player_company was corrected from null to its default, -0.12. 
+[27jun2024 17:31:49.839] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.entity was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:49.843] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.entity.sane_see_inner_entities was corrected from null to its default, false. 
+[27jun2024 17:31:49.844] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.client was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:49.844] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.client.indicator was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:49.845] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.client.indicator.render was corrected from null to its default, true. 
+[27jun2024 17:31:49.845] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.client.indicator.twitch was corrected from null to its default, true. 
+[27jun2024 17:31:49.846] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.client.indicator.scale was corrected from null to its default, 1.0. 
+[27jun2024 17:31:49.846] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.client.indicator.location was corrected from null to its default, HOTBAR_LEFT. 
+[27jun2024 17:31:49.847] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.client.hints was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:49.847] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.client.hints.render was corrected from null to its default, true. 
+[27jun2024 17:31:49.848] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.client.hints.twitch was corrected from null to its default, true. 
+[27jun2024 17:31:49.849] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.client.blood_tendrils was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:49.849] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.client.blood_tendrils.render was corrected from null to its default, true. 
+[27jun2024 17:31:49.850] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.client.blood_tendrils.short_burst_flash was corrected from null to its default, true. 
+[27jun2024 17:31:49.850] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.client.blood_tendrils.render_passive was corrected from null to its default, true. 
+[27jun2024 17:31:49.851] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.client.render_post was corrected from null to its default, true. 
+[27jun2024 17:31:49.852] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.client.play_sounds was corrected from null to its default, true. 
+[27jun2024 17:31:49.852] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sanity.client.insanity_volume was corrected from null to its default, 0.6. 
+[27jun2024 17:31:49.876] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Gianka\Desktop\server\config\man.toml is not correct. Correcting
+[27jun2024 17:31:49.877] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Server and Client was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:49.878] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Server and Client.enable_spawning was corrected from null to its default, true. 
+[27jun2024 17:31:49.879] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Server and Client.min_spawn_rate was corrected from null to its default, 10000.0. 
+[27jun2024 17:31:49.879] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Server and Client.max_spawn_rate was corrected from null to its default, 20000.0. 
+[27jun2024 17:31:49.880] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Server and Client.jumpscare was corrected from null to its default, true. 
+[27jun2024 17:31:49.880] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Server and Client.min_chase_duration was corrected from null to its default, 400.0. 
+[27jun2024 17:31:49.881] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Server and Client.max_chase_duration was corrected from null to its default, 1000.0. 
+[27jun2024 17:31:49.882] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Server and Client.climbing was corrected from null to its default, true. 
+[27jun2024 17:31:49.882] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Server and Client.vanish_distance was corrected from null to its default, 30.0. 
+[27jun2024 17:31:49.883] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Server and Client.spawn_at_day was corrected from null to its default, false. 
+[27jun2024 17:31:49.883] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Server and Client.darkness_effect was corrected from null to its default, true. 
+[27jun2024 17:31:49.883] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Server and Client.darkness_effect_duration was corrected from null to its default, 150.0. 
+[27jun2024 17:31:49.884] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Server and Client.all_dimensions was corrected from null to its default, false. 
+[27jun2024 17:31:49.884] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Server and Client.break_blocks was corrected from null to its default, true. 
+[27jun2024 17:31:49.885] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Server and Client.lightnings was corrected from null to its default, true. 
+[27jun2024 17:31:49.886] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Server and Client.spawn_sounds was corrected from null to its default, true. 
+[27jun2024 17:31:49.887] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Server and Client.stage1_spawn_rate was corrected from null to its default, 600.0. 
+[27jun2024 17:31:49.890] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Server and Client.stage2_spawn_rate was corrected from null to its default, 900.0. 
+[27jun2024 17:31:49.891] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Server and Client.old_stalk_mechanic was corrected from null to its default, false. 
+[27jun2024 17:31:49.891] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Server and Client.legacy_man was corrected from null to its default, false. 
+[27jun2024 17:31:49.892] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Server and Client.search_mechanic was corrected from null to its default, true. 
+[27jun2024 17:31:49.892] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Server and Client.block_hardness was corrected from null to its default, 2.0. 
+[27jun2024 17:31:49.893] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Server and Client.block_hardness_search was corrected from null to its default, 5.0. 
+[27jun2024 17:31:49.894] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Client was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:49.895] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Client.shader was corrected from null to its default, true. 
+[27jun2024 17:31:49.895] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Client.enable_fog was corrected from null to its default, true. 
+[27jun2024 17:31:49.896] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Client.fog_alpha_value was corrected from null to its default, 120.0. 
+[27jun2024 17:31:49.899] [modloading-worker-0/INFO] [studio.lunareclipse.watching.Init/]: From The Fog Loaded Successfully!
+[27jun2024 17:31:50.199] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_nyctophobia_dread] Starting version check at https://api.modrinth.com/updates/Q2HFmuJV/forge_updates.json
+[27jun2024 17:31:50.917] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_nyctophobia_dread] Found status: OUTDATED Current: 3 Target: 3+mod
+[27jun2024 17:31:50.917] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[27jun2024 17:31:51.210] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 43.4.0 Target: null
+[27jun2024 17:31:51.210] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[27jun2024 17:31:51.971] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.19.2-1.0.12 Target: null
+[27jun2024 17:31:51.980] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sanitydim] Starting version check at https://raw.githubusercontent.com/croissantnova/SanityDescentIntoMadness/main/update.json
+[27jun2024 17:31:52.051] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[27jun2024 17:31:52.137] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sanitydim] Found status: UP_TO_DATE Current: 1.1.0 Target: null
+[27jun2024 17:31:53.233] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Gianka/Desktop/server/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23141!/assets/.mcassetsroot' uses unexpected schema
+[27jun2024 17:31:53.234] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Gianka/Desktop/server/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23141!/data/.mcassetsroot' uses unexpected schema
+[27jun2024 17:31:53.266] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on sanitydim.mixins.json:MixinServerPlayerGameMode::handler$zbb000$destroyBlock exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[27jun2024 17:31:55.177] [main/INFO] [croissantnova.sanitydim.SanityMod/]: Registering sanity command...
+[27jun2024 17:31:55.514] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [whispering_spirits:soundof_spirits (from WhisperingSpirits-forge-1.19.2-v1.2.0.jar)] as it is missing following references: whispering_spirits:soundof_spirits (from WhisperingSpirits-forge-1.19.2-v1.2.0.jar)
+[27jun2024 17:31:55.644] [Worker-Main-6/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [mutationcraft_origins:pride_block (from Mutationcraft_1.19.2_1.0.6.jar), mutationcraft_origins:gluttony_block (from Mutationcraft_1.19.2_1.0.6.jar), mutationcraft_origins:greed_block (from Mutationcraft_1.19.2_1.0.6.jar), mutationcraft_origins:sloth_block (from Mutationcraft_1.19.2_1.0.6.jar), mutationcraft_origins:wrath_block (from Mutationcraft_1.19.2_1.0.6.jar), mutationcraft_origins:lust_block (from Mutationcraft_1.19.2_1.0.6.jar)] as it is missing following references: mutationcraft_origins:pride_block (from Mutationcraft_1.19.2_1.0.6.jar), 
+	mutationcraft_origins:gluttony_block (from Mutationcraft_1.19.2_1.0.6.jar), 
+	mutationcraft_origins:greed_block (from Mutationcraft_1.19.2_1.0.6.jar), 
+	mutationcraft_origins:sloth_block (from Mutationcraft_1.19.2_1.0.6.jar), 
+	mutationcraft_origins:wrath_block (from Mutationcraft_1.19.2_1.0.6.jar), 
+	mutationcraft_origins:lust_block (from Mutationcraft_1.19.2_1.0.6.jar)
+[27jun2024 17:31:55.676] [Worker-Main-6/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [mutationcraft_origins:envy_block (from Mutationcraft_1.19.2_1.0.6.jar)] as it is missing following references: mutationcraft_origins:envy_block (from Mutationcraft_1.19.2_1.0.6.jar)
+[27jun2024 17:31:57.018] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
+[27jun2024 17:31:58.093] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {undead_revamp2:entities/theheavy}.pools[2].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27jun2024 17:31:58.094] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {undead_revamp2:entities/slaveman}.pools[3].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27jun2024 17:31:58.097] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.19.2-20220805.130853-srg.jar%23141!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:85) ~[server-1.19.2-20220805.130853-srg.jar%23141!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[27jun2024 17:31:58.204] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement man:thetear: Non [a-z0-9/._-] character in path of location: man:tearoftheman
+
+[27jun2024 17:31:58.247] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1389 advancements
+[27jun2024 17:31:59.133] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[27jun2024 17:31:59.133] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[27jun2024 17:31:59.134] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[27jun2024 17:31:59.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[27jun2024 17:31:59.268] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[27jun2024 17:31:59.283] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[27jun2024 17:31:59.441] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[27jun2024 17:31:59.442] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[27jun2024 17:31:59.443] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[27jun2024 17:31:59.444] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[27jun2024 17:31:59.466] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\jei-server.toml is not correct. Correcting
+[27jun2024 17:31:59.467] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.467] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForOp was corrected from null to its default, true. 
+[27jun2024 17:31:59.468] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForCreative was corrected from null to its default, true. 
+[27jun2024 17:31:59.468] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForGive was corrected from null to its default, false. 
+[27jun2024 17:31:59.472] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\sophisticatedbackpacks-server.toml is not correct. Correcting
+[27jun2024 17:31:59.473] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.473] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.disallowedItems was corrected from null to its default, []. 
+[27jun2024 17:31:59.474] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.containerItemsDisallowed was corrected from null to its default, false. 
+[27jun2024 17:31:59.475] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.noInteractionBlocks was corrected from null to its default, []. 
+[27jun2024 17:31:59.475] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.noConnectionBlocks was corrected from null to its default, []. 
+[27jun2024 17:31:59.475] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.leatherBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.476] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.leatherBackpack.inventorySlotCount was corrected from null to its default, 27. 
+[27jun2024 17:31:59.476] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.leatherBackpack.upgradeSlotCount was corrected from null to its default, 1. 
+[27jun2024 17:31:59.477] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.copperBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.478] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.copperBackpack.inventorySlotCount was corrected from null to its default, 45. 
+[27jun2024 17:31:59.478] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.copperBackpack.upgradeSlotCount was corrected from null to its default, 1. 
+[27jun2024 17:31:59.479] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ironBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.483] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ironBackpack.inventorySlotCount was corrected from null to its default, 54. 
+[27jun2024 17:31:59.484] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ironBackpack.upgradeSlotCount was corrected from null to its default, 2. 
+[27jun2024 17:31:59.484] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.goldBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.485] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.goldBackpack.inventorySlotCount was corrected from null to its default, 81. 
+[27jun2024 17:31:59.485] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.goldBackpack.upgradeSlotCount was corrected from null to its default, 3. 
+[27jun2024 17:31:59.486] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.diamondBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.486] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.diamondBackpack.inventorySlotCount was corrected from null to its default, 108. 
+[27jun2024 17:31:59.487] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.diamondBackpack.upgradeSlotCount was corrected from null to its default, 5. 
+[27jun2024 17:31:59.487] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.netheriteBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.488] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.netheriteBackpack.inventorySlotCount was corrected from null to its default, 120. 
+[27jun2024 17:31:59.489] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.netheriteBackpack.upgradeSlotCount was corrected from null to its default, 7. 
+[27jun2024 17:31:59.489] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.compactingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.490] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.compactingUpgrade.filterSlots was corrected from null to its default, 9. 
+[27jun2024 17:31:59.490] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.compactingUpgrade.slotsInRow was corrected from null to its default, 3. 
+[27jun2024 17:31:59.491] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedCompactingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.491] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedCompactingUpgrade.filterSlots was corrected from null to its default, 16. 
+[27jun2024 17:31:59.491] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedCompactingUpgrade.slotsInRow was corrected from null to its default, 4. 
+[27jun2024 17:31:59.492] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.depositUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.492] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.depositUpgrade.filterSlots was corrected from null to its default, 9. 
+[27jun2024 17:31:59.493] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.depositUpgrade.slotsInRow was corrected from null to its default, 3. 
+[27jun2024 17:31:59.493] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedDepositUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.494] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedDepositUpgrade.filterSlots was corrected from null to its default, 16. 
+[27jun2024 17:31:59.494] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedDepositUpgrade.slotsInRow was corrected from null to its default, 4. 
+[27jun2024 17:31:59.495] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.feedingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.499] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.feedingUpgrade.filterSlots was corrected from null to its default, 9. 
+[27jun2024 17:31:59.500] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.feedingUpgrade.slotsInRow was corrected from null to its default, 3. 
+[27jun2024 17:31:59.501] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFeedingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.501] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFeedingUpgrade.filterSlots was corrected from null to its default, 16. 
+[27jun2024 17:31:59.501] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFeedingUpgrade.slotsInRow was corrected from null to its default, 4. 
+[27jun2024 17:31:59.502] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.filterUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.502] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.filterUpgrade.filterSlots was corrected from null to its default, 9. 
+[27jun2024 17:31:59.503] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.filterUpgrade.slotsInRow was corrected from null to its default, 3. 
+[27jun2024 17:31:59.503] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFilterUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.504] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFilterUpgrade.filterSlots was corrected from null to its default, 16. 
+[27jun2024 17:31:59.504] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFilterUpgrade.slotsInRow was corrected from null to its default, 4. 
+[27jun2024 17:31:59.505] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.magnetUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.505] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.magnetUpgrade.filterSlots was corrected from null to its default, 9. 
+[27jun2024 17:31:59.506] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.magnetUpgrade.slotsInRow was corrected from null to its default, 3. 
+[27jun2024 17:31:59.506] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.magnetUpgrade.magnetRange was corrected from null to its default, 3. 
+[27jun2024 17:31:59.507] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedMagnetUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.507] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedMagnetUpgrade.filterSlots was corrected from null to its default, 16. 
+[27jun2024 17:31:59.508] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedMagnetUpgrade.slotsInRow was corrected from null to its default, 4. 
+[27jun2024 17:31:59.508] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedMagnetUpgrade.magnetRange was corrected from null to its default, 5. 
+[27jun2024 17:31:59.509] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pickupUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.509] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pickupUpgrade.filterSlots was corrected from null to its default, 9. 
+[27jun2024 17:31:59.510] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pickupUpgrade.slotsInRow was corrected from null to its default, 3. 
+[27jun2024 17:31:59.511] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedPickupUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.514] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedPickupUpgrade.filterSlots was corrected from null to its default, 16. 
+[27jun2024 17:31:59.514] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedPickupUpgrade.slotsInRow was corrected from null to its default, 4. 
+[27jun2024 17:31:59.515] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.refillUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.516] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.refillUpgrade.filterSlots was corrected from null to its default, 6. 
+[27jun2024 17:31:59.516] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.refillUpgrade.slotsInRow was corrected from null to its default, 3. 
+[27jun2024 17:31:59.517] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRefillUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.517] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRefillUpgrade.filterSlots was corrected from null to its default, 12. 
+[27jun2024 17:31:59.518] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRefillUpgrade.slotsInRow was corrected from null to its default, 4. 
+[27jun2024 17:31:59.518] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.restockUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.519] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.restockUpgrade.filterSlots was corrected from null to its default, 9. 
+[27jun2024 17:31:59.519] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.restockUpgrade.slotsInRow was corrected from null to its default, 3. 
+[27jun2024 17:31:59.520] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRestockUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.520] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRestockUpgrade.filterSlots was corrected from null to its default, 16. 
+[27jun2024 17:31:59.521] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRestockUpgrade.slotsInRow was corrected from null to its default, 4. 
+[27jun2024 17:31:59.521] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.voidUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.521] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.voidUpgrade.filterSlots was corrected from null to its default, 9. 
+[27jun2024 17:31:59.522] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.voidUpgrade.slotsInRow was corrected from null to its default, 3. 
+[27jun2024 17:31:59.522] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.voidUpgrade.voidAnythingEnabled was corrected from null to its default, true. 
+[27jun2024 17:31:59.523] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedVoidUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.523] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedVoidUpgrade.filterSlots was corrected from null to its default, 16. 
+[27jun2024 17:31:59.524] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedVoidUpgrade.slotsInRow was corrected from null to its default, 4. 
+[27jun2024 17:31:59.524] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedVoidUpgrade.voidAnythingEnabled was corrected from null to its default, true. 
+[27jun2024 17:31:59.525] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.stackUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.526] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.stackUpgrade.nonStackableItems was corrected from null to its default, [minecraft:bundle, minecraft:shulker_box, minecraft:white_shulker_box, minecraft:orange_shulker_box, minecraft:magenta_shulker_box, minecraft:light_blue_shulker_box, minecraft:yellow_shulker_box, minecraft:lime_shulker_box, minecraft:pink_shulker_box, minecraft:gray_shulker_box, minecraft:light_gray_shulker_box, minecraft:cyan_shulker_box, minecraft:purple_shulker_box, minecraft:blue_shulker_box, minecraft:brown_shulker_box, minecraft:green_shulker_box, minecraft:red_shulker_box, minecraft:black_shulker_box]. 
+[27jun2024 17:31:59.529] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smeltingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.530] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smeltingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[27jun2024 17:31:59.530] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smeltingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[27jun2024 17:31:59.531] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smokingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.531] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smokingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[27jun2024 17:31:59.532] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smokingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[27jun2024 17:31:59.532] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.blastingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.533] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.blastingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[27jun2024 17:31:59.533] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.blastingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[27jun2024 17:31:59.534] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.534] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[27jun2024 17:31:59.535] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[27jun2024 17:31:59.535] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
+[27jun2024 17:31:59.536] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
+[27jun2024 17:31:59.536] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
+[27jun2024 17:31:59.537] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
+[27jun2024 17:31:59.537] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.537] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[27jun2024 17:31:59.538] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[27jun2024 17:31:59.539] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
+[27jun2024 17:31:59.539] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
+[27jun2024 17:31:59.540] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
+[27jun2024 17:31:59.541] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
+[27jun2024 17:31:59.544] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.544] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[27jun2024 17:31:59.545] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[27jun2024 17:31:59.546] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
+[27jun2024 17:31:59.546] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
+[27jun2024 17:31:59.547] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
+[27jun2024 17:31:59.547] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
+[27jun2024 17:31:59.548] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.inceptionUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.548] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.inceptionUpgrade.upgradesUseInventoriesOfBackpacksInBackpack was corrected from null to its default, true. 
+[27jun2024 17:31:59.549] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.inceptionUpgrade.upgradesInContainedBackpacksAreFunctional was corrected from null to its default, true. 
+[27jun2024 17:31:59.550] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.toolSwapperUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.550] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.toolSwapperUpgrade.filterSlots was corrected from null to its default, 8. 
+[27jun2024 17:31:59.551] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.toolSwapperUpgrade.slotsInRow was corrected from null to its default, 4. 
+[27jun2024 17:31:59.551] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.551] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.capacityPerSlotRow was corrected from null to its default, 4000. 
+[27jun2024 17:31:59.552] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.stackMultiplierRatio was corrected from null to its default, 1.0. 
+[27jun2024 17:31:59.552] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.autoFillDrainContainerCooldown was corrected from null to its default, 20. 
+[27jun2024 17:31:59.553] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.maxInputOutput was corrected from null to its default, 20. 
+[27jun2024 17:31:59.553] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.energyPerSlotRow was corrected from null to its default, 10000. 
+[27jun2024 17:31:59.554] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pumpUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.554] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pumpUpgrade.filterSlots was corrected from null to its default, 4. 
+[27jun2024 17:31:59.554] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pumpUpgrade.maxInputOutput was corrected from null to its default, 20. 
+[27jun2024 17:31:59.555] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pumpUpgrade.stackMultiplierRatio was corrected from null to its default, 1.0. 
+[27jun2024 17:31:59.555] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.xpPumpUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.556] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.xpPumpUpgrade.mendingOn was corrected from null to its default, true. 
+[27jun2024 17:31:59.556] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.xpPumpUpgrade.maxXpPointsPerMending was corrected from null to its default, 5. 
+[27jun2024 17:31:59.557] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.560] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.chance was corrected from null to its default, 0.01. 
+[27jun2024 17:31:59.561] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.addLoot was corrected from null to its default, true. 
+[27jun2024 17:31:59.561] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.buffWithPotionEffects was corrected from null to its default, true. 
+[27jun2024 17:31:59.562] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.buffHealth was corrected from null to its default, true. 
+[27jun2024 17:31:59.562] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.equipWithArmor was corrected from null to its default, true. 
+[27jun2024 17:31:59.564] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.entityLootTableList was corrected from null to its default, [minecraft:creeper|minecraft:chests/desert_pyramid, minecraft:drowned|minecraft:chests/shipwreck_treasure, minecraft:enderman|minecraft:chests/end_city_treasure, minecraft:evoker|minecraft:chests/woodland_mansion, minecraft:husk|minecraft:chests/desert_pyramid, minecraft:piglin|minecraft:chests/bastion_bridge, minecraft:piglin_brute|minecraft:chests/bastion_treasure, minecraft:pillager|minecraft:chests/pillager_outpost, minecraft:skeleton|minecraft:chests/simple_dungeon, minecraft:stray|minecraft:chests/igloo_chest, minecraft:vex|minecraft:chests/woodland_mansion, minecraft:vindicator|minecraft:chests/woodland_mansion, minecraft:witch|minecraft:chests/buried_treasure, minecraft:wither_skeleton|minecraft:chests/nether_bridge, minecraft:zombie|minecraft:chests/simple_dungeon, minecraft:zombie_villager|minecraft:chests/village/village_armorer, minecraft:zombified_piglin|minecraft:chests/bastion_other]. 
+[27jun2024 17:31:59.564] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.discBlockList was corrected from null to its default, [botania:record_gaia_1, botania:record_gaia_2]. 
+[27jun2024 17:31:59.565] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.playJukebox was corrected from null to its default, true. 
+[27jun2024 17:31:59.565] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.dropToFakePlayers was corrected from null to its default, false. 
+[27jun2024 17:31:59.566] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.backpackDropChance was corrected from null to its default, 0.5. 
+[27jun2024 17:31:59.566] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.lootingChanceIncreasePerLevel was corrected from null to its default, 0.15. 
+[27jun2024 17:31:59.567] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.567] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs.tooManyBackpacksSlowness was corrected from null to its default, false. 
+[27jun2024 17:31:59.568] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs.maxNumberOfBackpacks was corrected from null to its default, 3. 
+[27jun2024 17:31:59.568] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs.slownessLevelsPerAdditionalBackpack was corrected from null to its default, 1.0. 
+[27jun2024 17:31:59.569] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs.onlyWornBackpackTriggersUpgrades was corrected from null to its default, false. 
+[27jun2024 17:31:59.570] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.maxUpgradesPerStorage was corrected from null to its default, [stack_upgrades|3, furnace_upgrades|1, jukebox_upgrade|1]. 
+[27jun2024 17:31:59.570] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.itemFluidHandlerEnabled was corrected from null to its default, true. 
+[27jun2024 17:31:59.571] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.allowOpeningOtherPlayerBackpacks was corrected from null to its default, true. 
+[27jun2024 17:31:59.571] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.itemDisplayDisabled was corrected from null to its default, false. 
+[27jun2024 17:31:59.572] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tickDedupeLogicDisabled was corrected from null to its default, false. 
+[27jun2024 17:31:59.572] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.canBePlacedInContainerItems was corrected from null to its default, false. 
+[27jun2024 17:31:59.582] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\cave_dweller-server.toml is not correct. Correcting
+[27jun2024 17:31:59.583] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.584] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.584] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn.can_spawn_min was corrected from null to its default, 300. 
+[27jun2024 17:31:59.585] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn.can_spawn_max was corrected from null to its default, 600. 
+[27jun2024 17:31:59.586] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn.can_spawn_cooldown_chance was corrected from null to its default, 0.4. 
+[27jun2024 17:31:59.586] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn.can_spawn_cooldown was corrected from null to its default, 1200. 
+[27jun2024 17:31:59.587] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Noise was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.587] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Noise.reset_noise_min was corrected from null to its default, 240. 
+[27jun2024 17:31:59.588] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Noise.reset_noise_max was corrected from null to its default, 360. 
+[27jun2024 17:31:59.589] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Leave was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.592] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Leave.time_until_leave was corrected from null to its default, 300. 
+[27jun2024 17:31:59.593] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Leave.time_until_leave_chase was corrected from null to its default, 30. 
+[27jun2024 17:31:59.593] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.surface_timer_multiplier was corrected from null to its default, 1.0. 
+[27jun2024 17:31:59.595] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.595] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.spawn_chance_per_tick was corrected from null to its default, 0.005. 
+[27jun2024 17:31:59.596] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.spawn_height was corrected from null to its default, 40. 
+[27jun2024 17:31:59.596] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.allow_surface_spawn was corrected from null to its default, false. 
+[27jun2024 17:31:59.597] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.sky_light_level was corrected from null to its default, 8. 
+[27jun2024 17:31:59.597] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.block_light_level was corrected from null to its default, 15. 
+[27jun2024 17:31:59.598] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.maximum_amount was corrected from null to its default, 3. 
+[27jun2024 17:31:59.599] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.spawn_distance was corrected from null to its default, 16. 
+[27jun2024 17:31:59.599] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.check_path_to_spawn was corrected from null to its default, true. 
+[27jun2024 17:31:59.600] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Dimensions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.600] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Dimensions.dimension_whitelist was corrected from null to its default, [minecraft:overworld]. 
+[27jun2024 17:31:59.601] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Biomes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.601] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Biomes.override_biome_datapack_config was corrected from null to its default, false. 
+[27jun2024 17:31:59.602] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Biomes.surface_biomes_is_whitelist was corrected from null to its default, true. 
+[27jun2024 17:31:59.602] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Biomes.surface_biomes was corrected from null to its default, []. 
+[27jun2024 17:31:59.604] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.604] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.spotting_range was corrected from null to its default, 60. 
+[27jun2024 17:31:59.605] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.can_disable_shields was corrected from null to its default, false. 
+[27jun2024 17:31:59.609] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.can_climb was corrected from null to its default, true. 
+[27jun2024 17:31:59.609] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.can_break_door was corrected from null to its default, true. 
+[27jun2024 17:31:59.610] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.break_door_time was corrected from null to its default, 3. 
+[27jun2024 17:31:59.610] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.allow_riding was corrected from null to its default, false. 
+[27jun2024 17:31:59.611] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.target_invisible was corrected from null to its default, true. 
+[27jun2024 17:31:59.612] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.613] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.maximum_health was corrected from null to its default, 60.0. 
+[27jun2024 17:31:59.613] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.attack_damage was corrected from null to its default, 6.0. 
+[27jun2024 17:31:59.614] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.attack_speed was corrected from null to its default, 0.35. 
+[27jun2024 17:31:59.614] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.movement_speed was corrected from null to its default, 0.5. 
+[27jun2024 17:31:59.615] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.depth_strider_bonus was corrected from null to its default, 1.5. 
+[27jun2024 17:31:59.617] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Misc was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.617] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Misc.only_play_noise_to_target was corrected from null to its default, false. 
+[27jun2024 17:31:59.620] [Thread-0/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
+[27jun2024 17:31:59.622] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\corpse-server.toml is not correct. Correcting
+[27jun2024 17:31:59.624] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.624] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.access was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.624] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.access.only_owner was corrected from null to its default, false. 
+[27jun2024 17:31:59.625] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.access.skeleton was corrected from null to its default, false. 
+[27jun2024 17:31:59.625] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.despawn was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.626] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.despawn.time was corrected from null to its default, 600. 
+[27jun2024 17:31:59.626] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.despawn.force_time was corrected from null to its default, -1. 
+[27jun2024 17:31:59.627] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.skeleton_time was corrected from null to its default, 72000. 
+[27jun2024 17:31:59.627] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.lie_on_face was corrected from null to its default, false. 
+[27jun2024 17:31:59.628] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.show_equipment was corrected from null to its default, true. 
+[27jun2024 17:31:59.628] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.fall_into_void was corrected from null to its default, false. 
+[27jun2024 17:31:59.629] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.lava_damage was corrected from null to its default, false. 
+[27jun2024 17:31:59.630] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key death_storage_duration was corrected from null to its default, -1. 
+[27jun2024 17:31:59.638] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\Whispering Spirits Spawn Properties.toml is not correct. Correcting
+[27jun2024 17:31:59.639] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Times was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.639] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Times.Spawn In Day was corrected from null to its default, true. 
+[27jun2024 17:31:59.640] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Times.Spawn At Night was corrected from null to its default, true. 
+[27jun2024 17:31:59.641] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Weight was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27jun2024 17:31:59.642] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Weight.weight was corrected from null to its default, 20.0. 
+[27jun2024 17:31:59.689] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[27jun2024 17:32:00.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[27jun2024 17:32:04.148] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27jun2024 17:32:04.150] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27jun2024 17:32:04.151] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27jun2024 17:32:04.154] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27jun2024 17:32:04.155] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27jun2024 17:32:04.155] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27jun2024 17:32:04.156] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27jun2024 17:32:04.157] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27jun2024 17:32:04.158] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27jun2024 17:32:04.532] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[27jun2024 17:32:05.032] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
+[27jun2024 17:32:05.533] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
+[27jun2024 17:32:05.778] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5747 ms
+[27jun2024 17:32:05.779] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (6.321s)! For help, type "help"
+[27jun2024 17:32:05.793] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[27jun2024 17:33:24.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[27jun2024 17:33:24.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[27jun2024 17:33:24.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[27jun2024 17:33:24.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[27jun2024 17:33:25.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[27jun2024 17:33:25.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[27jun2024 17:33:25.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/man:halucination
+[27jun2024 17:33:25.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[27jun2024 17:33:25.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[27jun2024 17:33:25.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[27jun2024 17:33:25.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (halucination): All chunks are saved
+[27jun2024 17:33:25.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[27jun2024 17:33:25.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
